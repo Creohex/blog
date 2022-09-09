@@ -1,0 +1,62 @@
+baseURL = "https://creohex.space/"
+defaultContentLanguage = "en"
+title = "My new blog"
+preserveTaxonomyNames = true
+enableRobotsTXT = true
+enableEmoji = true
+theme = "risotto"
+enableGitInfo = false
+paginate = 3
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+googleAnalytics = ""
+copyright = "© 2022 Creohex"
+
+# tmp:
+relativeURLs = true
+
+[author]
+    name = "Creohex"
+
+[[menu.main]]
+    name = "Home"
+    weight = 10
+    identifier = "home"
+    url = "/"
+[[menu.main]]
+    name = "Posts"
+    weight = 20
+    identifier = "posts"
+    url = "/posts/"
+[[menu.main]]
+    name = "About"
+    weight = 30
+    identifier = "about"
+    url = "/about/"
+
+[params]
+    # version = "4.x"
+    # debug = false
+    # since = "2022"
+    # gitRepo = ""
+    noindex = false
+
+[params.theme]
+    palette = "gruvbox-dark"
+    mode = "dark-mode"
+
+[params.about]
+    title = ""
+    description = ""
+    logo = "images/favicon.ico"
+
+[[params.socialLinks]]
+icon = "fa-brands fa-github"
+title = "GitHub"
+url = "https://github.com/Creohex/"
+
+[[params.socialLinks]]
+icon = "fa-solid fa-envelope"
+title = "Email"
+url = "mailto:paradise.source@gmail.com"
