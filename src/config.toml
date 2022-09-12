@@ -49,7 +49,7 @@ relativeURLs = true
 [params.about]
     title = ""
     description = ""
-    logo = "images/favicon.ico"
+    logo = "/favicon.ico"
 
 [[params.socialLinks]]
 icon = "fa-brands fa-github"
