@@ -1,12 +1,10 @@
 +++
-title = "Home"
 date = "2022-09-09"
+title = "Home"
 +++
 
 Welcome!
 
-<br>
-
 ---
 
-This is work in progress.
+Work in progress.
