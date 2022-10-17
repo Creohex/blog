@@ -1,6 +1,6 @@
 baseURL = "https://creohex.space/"
 defaultContentLanguage = "en"
-title = "My new blog"
+title = "My personal page"
 preserveTaxonomyNames = true
 enableRobotsTXT = true
 enableEmoji = true
@@ -13,27 +13,27 @@ enableInlineShortcodes = true
 googleAnalytics = ""
 copyright = "© 2022 Creohex"
 
-# tmp:
+# temp:
 relativeURLs = true
 
 [author]
     name = "Creohex"
 
 [[menu.main]]
-    name = "Home"
+    name = "home"
     weight = 10
     identifier = "home"
     url = "/"
+# [[menu.main]]
+#     name = "Posts"
+#     weight = 20
+#     identifier = "posts"
+#     url = "/posts/"
 [[menu.main]]
-    name = "Posts"
-    weight = 20
-    identifier = "posts"
-    url = "/posts/"
-[[menu.main]]
-    name = "About"
+    name = "services"
     weight = 30
-    identifier = "about"
-    url = "/about/"
+    identifier = "services"
+    url = "/services/"
 
 [params]
     # version = "4.x"

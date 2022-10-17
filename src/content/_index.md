@@ -1,19 +1,12 @@
 +++
-author = "Creohex"
-title = "Blog"
+title = "Home"
 date = "2022-09-09"
-description = "..."
 +++
 
-Welcome to my humble blog!
+Welcome!
 
 <br>
 
-This is work in progress, updates incoming.
-
 ---
 
-Links:
-* Selfhosted: [Bitwarden](https://creohex.space/bitwarden)
-
----
+This is work in progress.
