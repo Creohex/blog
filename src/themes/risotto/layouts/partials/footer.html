@@ -1,4 +1,12 @@
-<p class="copyright">{{ .Site.Copyright }} | Powered by
-    <a href="https://gohugo.io/">hugo</a> /
-    <a href="https://github.com/joeroe/risotto">risotto</a>
+<p class="copyright"> {{ with .Site.Params.about }}
+    {{ with .logo }}
+    <img class="about__logo" src="{{ . | absURL }}" alt="Logo">{{ end }}
+    {{ end }} |
+    {{ .Site.Copyright }} |
+    <!-- <a href="https://gohugo.io/">hugo</a> /
+    <a href="https://github.com/joeroe/risotto">risotto</a> | -->
+    {{ range $item := .Site.Params.socialLinks }}
+    <a href="{{ $item.url }}" rel="me" aria-label="{{ $item.title }}" title="{{ $item.title }}"><i
+            class="{{ $item.icon }}" aria-hidden="true"></i></a>&nbsp;
+    {{ end }}
 </p>

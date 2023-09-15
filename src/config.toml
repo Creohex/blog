@@ -1,6 +1,6 @@
 baseURL = "https://creohex.site/"
 defaultContentLanguage = "en"
-title = "My personal page"
+title = "<_<"
 preserveTaxonomyNames = true
 enableRobotsTXT = true
 enableEmoji = true
@@ -11,7 +11,7 @@ languageCode = "en"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 googleAnalytics = ""
-copyright = "© 2022 Creohex"
+copyright = "© 2023 Creohex"
 
 # temp:
 relativeURLs = true
