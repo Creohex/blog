@@ -11,7 +11,7 @@ languageCode = "en"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 googleAnalytics = ""
-copyright = "© 2023 Creohex"
+copyright = "© 2024 Creohex"
 
 # temp:
 relativeURLs = true
