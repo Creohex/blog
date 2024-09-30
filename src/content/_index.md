@@ -4,5 +4,3 @@ title = "Home"
 +++
 
 Welcome!
-
-Work in progress.
